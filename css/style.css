@@ -17,7 +17,17 @@ h1 {
 	text-align: center;
 	}
 
-
+.background{
+background-size: cover;
+background-position: relative;
+background-repeat: no-repeat;
+max-width: 100vw; 
+max-height: 100vw;
+margin-left: 0px;
+margin-right: 0px ; 
+margin-top: 0px; 
+margin-bottom: 0px;
+	}
 
 .header-image{
 	color: white; 
@@ -37,7 +47,7 @@ section{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	color: white; 
-	text-align: center;
+	text-align: left;
 
 }
 
@@ -120,9 +130,9 @@ nav a {
 	margin-right: 2em;
 	text-decoration: none;
 }
+
 nav a, nav h3{
   	display: inline-flex;
-
 }
 
 nav a{
@@ -132,7 +142,6 @@ nav a{
   	font-family: "Skia";
   	font-size: 25px;
 
-
 }
 
 
@@ -141,6 +150,51 @@ nav a:hover {
     	transition: all 0.5s ease-in;
 }
 
+.button{
+	text-align: center;
+	float: right;
+	}
+
+.button2{
+	text-align: center;
+	float: left;
+	}
+
+.button3{
+	text-align: center;
+	
+	}	
+
+.button:hover{
+    	color: black;
+    	background-color: white;
+    	padding: 0px 15px;
+    	border-color: white;
+    	transition: all 0.5s ease-in;
+    	float: right;
+    	
+	}
+
+.button2:hover{
+    	color: black;
+    	background-color: white;
+    	padding: 0px 15px;
+    	border-color: white;
+    	transition: all 0.5s ease-in;
+   
+ 	float: left;
+	}
+
+
+.button3:hover{
+    	color: black;
+    	background-color: white;
+    	padding: 0px 15px;
+    	border-color: white;
+    	transition: all 0.5s ease-in;
+    	
+    	
+	}
 
 
 .g-row{
